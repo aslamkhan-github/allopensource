@@ -33,7 +33,7 @@ sed -i --follow-symlinks 's/^SELINUX=enforcing/SELINUX=disabled/' /etc/sysconfig
 
 # Set Root password
 echo "[TASK 6] Set root password"
-echo "admin" | passwd --stdin root >/dev/null 2>&1
+echo "F@brix" | passwd --stdin root >/dev/null 2>&1
 
 # Disable and stop firewalld
 echo "[TASK 5] Disable and stop firewalld"
